@@ -25,3 +25,7 @@ drwxrwxrwx 1 root root 4096 Oct 16 08:15 Music/
 ```
 docker-compose up -d
 ```
+
+### GUI 访问虚拟机地址+8090端口
+<img width="347" height="777" alt="image" src="https://github.com/user-attachments/assets/18d1f016-a90d-4a61-9c86-d872b47da772" />
+
