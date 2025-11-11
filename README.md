@@ -9,6 +9,7 @@ sudo systemctl enable --now vgauth.service
 systemctl status vmtoolsd.service
 ```
 <img width="726" height="793" alt="image" src="https://github.com/user-attachments/assets/6903d535-56ab-48a5-80f8-64f936c0a9a7" />
+
 ```
 ubuntu@ubuntu:~$ df -h /mnt/hgfs
 Filesystem                         Size  Used Avail Use% Mounted on
