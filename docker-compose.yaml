@@ -1,0 +1,13 @@
+services:
+  xiaomusic:
+    image: m.daocloud.io/docker.io/hanxi/xiaomusic:latest
+    container_name: xiaomusic
+    restart: unless-stopped
+    ports:
+      - 8090:8090
+    environment:
+      XIAOMUSIC_PUBLIC_PORT: 8090
+    volumes:
+      - /xiaomusic_conf:/app/conf
+      - /mnt/hgfs:/app/music/music1
+      - /xiaomusic_music/download:/app/music/download
